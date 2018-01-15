@@ -1,0 +1,31 @@
+---
+log4r_config:
+
+  loggers:
+    - name      : MainLogger
+      level     : ALL
+      additive  : 'false'
+      trace     : 'true'
+      outputters:
+        - console
+        - rolling_file_outputter
+
+  outputters:
+    - type     : StderrOutputter
+      name     : console
+      level    : ALL
+      formatter:
+        date_pattern: #'%y%m%d %H:%M:%S'
+        pattern     : '[%l %d]: %M'
+        type        : PatternFormatter
+
+    - type        : RollingFileOutputter
+      name        : rolling_file_outputter
+      level       : ALL
+      trunc       : 'false'
+      filename    : 'log/log.log'
+      formatter   :
+        date_pattern: #'%y%m%d %H:%M:%S'
+        pattern     : '[%l %d]: %M'
+        type        : PatternFormatter
+---
