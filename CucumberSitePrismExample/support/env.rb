@@ -1,4 +1,6 @@
-require 'capybara'
+require 'capybara'  
+require "rspec" 
+require "rspec/expectations" 
 require 'selenium-webdriver'
 require 'site_prism'
 require 'test_site' 
