@@ -14,5 +14,5 @@ And(/^I clicked in "(.*?)"$/) do |arg1|
 end
 
 Then(/^Should more than (\d+) result headers$/) do |arg1|   
-expect(@page.founded_headers).to be >= arg1
+expect(@page.founded_headers).to be >= arg1.to_i
 end

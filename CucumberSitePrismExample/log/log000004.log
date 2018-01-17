@@ -1,1 +1,6 @@
 [INFO 2018-01-16 10:34:43] D:/TAQC-Examples/CucumberSitePrismExample/pages/google_page.rb:18:in `click_search_button': Founded headers
+[INFO 2018-01-17 11:48:57] /home/ymylian/workspace/TAQC-Examples/CucumberSitePrismExample/pages/google_page.rb:18:in `click_search_button': Founded headers
+[INFO 2018-01-17 11:57:43] /home/ymylian/workspace/TAQC-Examples/CucumberSitePrismExample/pages/google_page.rb:18:in `click_search_button': Founded headers
+[INFO 2018-01-17 12:06:36] /home/ymylian/workspace/TAQC-Examples/CucumberSitePrismExample/pages/google_page.rb:18:in `click_search_button': Founded headers
+[INFO 2018-01-17 12:08:13] /home/ymylian/workspace/TAQC-Examples/CucumberSitePrismExample/pages/google_page.rb:18:in `click_search_button': Founded headers
+[INFO 2018-01-17 12:29:18] /home/ymylian/workspace/TAQC-Examples/CucumberSitePrismExample/pages/google_page.rb:18:in `click_search_button': Founded headers

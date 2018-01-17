@@ -15,7 +15,7 @@ class GooglePage < SitePrism::Page
 
    def click_search_button 
     search_button.click 
-    logger.info 'Founded headers' 
+    logger.info 'Founded headers'
     search_results.each do |item| 
       puts item.text
     end 
